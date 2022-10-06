@@ -1,13 +1,20 @@
-console.log("#   #   #   #   ");
-console.log("  #   #   #   #");
-console.log("#   #   #   #   ");
-console.log("  #   #   #   #");
-console.log("#   #   #   #   ");
-console.log("  #   #   #   #");
-console.log("#   #   #   #   ");
-console.log("  #   #   #   #");
-
-
+var slash = ' # ';
+var space = '  ';
+var result = '';
+var row = true;
+for (var i1= 0; i1 < 8; i1++) {
+  for (var i2 = 0; i2 < 8; i2++) {
+    if ((i2+row) % 2 == 0) {
+      result += space;
+    } else {
+      result += slash;
+    }
+  }
+  console.log(result);
+  result='';
+  row = ! row;
+}
+   
 console.log('\n\n');
 
 
