@@ -4,27 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Countdown Timer</title>
+    <title>lab6</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <script src="project.js"></script>
-    <div class="timer">
-        <div class="conteiner">
-            <h1>Countdown Timer</h1>
-          <div class="timer__items">
-          <div class="timer__item timer__days">00</div>
-          <div class="timer__item timer__hours">00</div>
-          <div class="timer__item timer__minutes">00</div>
-          <div class="timer__item timer__seconds">00</div>
+    <form>
+
+        <h1>Register form</h1>
+        <div class="text">Name:
+          <input type="text" placeholder="Name">
         </div>
-      </div>
+        
+        <div>Password:
+          <input type="password" id="password" placeholder="Password" name="password">
     </div>
-    <div class="units">
-        <h3>Days </h3>
-        <h3>Hours</h3>
-        <h3>Min  </h3>
-        <h3>Sec  </h3>
-      </div>
+        <button type="button" >Next</button>
+
+        <button id="but" class="but" onclick="return show_password(this);">Show the Password</button>
+        
+        </form>
+        <script src="project.js"></script>
 </body>
 </html>

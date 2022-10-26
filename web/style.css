@@ -1,46 +1,45 @@
+
 body{
-    background-color: rgb(153, 245, 245);
-    text-align: center;
-    margin-top: 50px;
-    color: cornflowerblue;
-}
-
-.units{
     display: flex;
     justify-content: center;
+    align-items: center;
+    background-color: #b7f5f3;
+font-size: 16px;
 }
 
-h3{
-    margin: 0 21px 0 21px;
+
+.form{
+    outline: solid;
+    width: 300px;
+    height: 400px;
+    outline: solid;
+    background-color: aquamarine;
+    
 }
 
-
-.timer__items {
-    margin-bottom: -20px;
-    justify-content: center;
-    display: flex;
-    font-size: 48px;
-    text-align: center;
-  }
-  .timer__item {
-    justify-content: baseline;
-    position: relative;
-    min-width: 60px;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding-bottom: 15px;
-  }
-  .timer__item::before {
-    content: attr(data-title);
-    display: block;
-    position: absolute;
-    left: 50%;
-    bottom: 0;
-    transform: translateX(-50%);
+input[type="text"], input[type="password"]{
+    width: 100px;
+    height: 30px;
     font-size: 14px;
-  }
-  .timer__item:not(:last-child)::after {
-    content: ':';
-    position: absolute;
-    right: -15px;
-  }
+    border-radius: 5px;
+    border-width: 1px;
+    margin: 0 0 10px 30px;
+    display: flex;
+    flex-flow: column wrap;
+    background-color: rgb(195, 249, 249);
+}
+
+
+button{
+    padding: 5px;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    background-color:rgb(255, 255, 255) ;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover{
+    background-color: rgb(218, 215, 237);
+}
+
