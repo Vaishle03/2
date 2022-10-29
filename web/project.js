@@ -14,7 +14,7 @@ nameof.addEventListener("input", function () {
 	if (nameof.value.length >=3 && nameof.value.length <=25) {
 	  nameof.setCustomValidity("");
 	} else {
-	  email.setCustomValidity("Name must be between 3 and 25 characters");
+	  nameof.setCustomValidity("Name must be between 3 and 25 characters");
 	}
   });
 
