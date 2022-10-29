@@ -5,7 +5,7 @@ var cpassword = document.getElementById("cpassword");
 var lowerCaseLetters = /[a-z]/g;
 var upperCaseLetters = /[A-Z]/g;
 var numbers = /[0-9]/g;
-var special = /[!@#$&*%]/g;
+var special = /[!@#$&*%^]/g;
 
 
 
